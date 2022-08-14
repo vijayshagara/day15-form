@@ -1,0 +1,117 @@
+body {
+    background-color: aqua;
+}
+
+#form {
+    border: 1px solid black;
+    width: 500px;
+
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightgreen;
+    border: none;
+
+}
+
+label,
+button {
+    display: block;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#description {
+    text-align: center;
+    font-size: 30px;
+    ;
+}
+
+#first-name,
+#last-name,
+#email,
+#pincode,
+#city,
+#state {
+    width: 280px;
+    height: 30px;
+    margin-left: 20px;
+    ;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gender {
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+button {
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10%;
+    height: 40px;
+    width: 100px;
+
+
+}
+
+button:hover {
+    background-color: orange;
+}
+
+select {
+    margin-left: 50px;
+}
+
+table {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 255, 220);
+    border-radius: 5px;
+
+
+
+
+}
+
+tr,
+td,
+th {
+    border: 2px solid rgba(0, 0, 0, 0.856);
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+
+}
+
+option {
+    font-size: 16px;
+}
+
+span {
+    font-size: 16px;
+    ;
+}
+
+caption {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#error {
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(220, 255, 220);
+
+}
